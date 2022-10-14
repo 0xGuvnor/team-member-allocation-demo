@@ -11,7 +11,7 @@ const Nav = () => {
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="GroupedTeamMembers">
+          <Link className="nav-link" to="/GroupedTeamMembers">
             Team
           </Link>
         </li>
