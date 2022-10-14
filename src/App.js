@@ -12,7 +12,7 @@ function App() {
   const [selectedTeam, setTeam] = useState(
     JSON.parse(localStorage.getItem("selectedTeam")) || "TeamB"
   );
-  const [employees, SetEmployees] = useState(
+  const [employees, setEmployees] = useState(
     JSON.parse(localStorage.getItem("employeeList")) || [
       {
         id: 1,
@@ -122,7 +122,7 @@ function App() {
         : employee
     );
 
-    SetEmployees(transformedEmployees);
+    setEmployees(transformedEmployees);
   };
 
   return (
